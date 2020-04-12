@@ -28,7 +28,6 @@ public class Rocket : MonoBehaviour {
 
         rb.AddForce(mDNA.genes[genesCounter]);
         genesCounter++;
-        print(mDNA.fitness);
     }
 
     public void CalculateFitness ()
